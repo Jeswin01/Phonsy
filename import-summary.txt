@@ -1,0 +1,81 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Vaishnav J\AndroidStudioProjects\Phonsy
+                 -                              
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\Phonsy.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* AndroidManifest.xml
+* ic_launcher-web.png
+* proguard-project.txt
+* res\
+* res\drawable-hdpi\
+* res\drawable-hdpi\backgroundapp.jpg
+* res\drawable-hdpi\backimg2.jpg
+* res\drawable-hdpi\button_submit.png
+* res\drawable-hdpi\phonsylogo.jpg
+* res\drawable-hdpi\phonsylogo2.jpeg
+* res\layout\
+* res\layout\acsil.xml
+* res\layout\activity_phonsy.xml
+* res\layout\emerms.xml
+* res\layout\opt.xml
+* res\mipmap-hdpi\
+* res\mipmap-hdpi\ic_launcher.png
+* res\mipmap-mdpi\
+* res\mipmap-mdpi\ic_launcher.png
+* res\mipmap-xhdpi\
+* res\mipmap-xhdpi\ic_launcher.png
+* res\mipmap-xxhdpi\
+* res\mipmap-xxhdpi\ic_launcher.png
+* res\mipmap-xxxhdpi\
+* res\mipmap-xxxhdpi\ic_launcher.png
+* res\values-v11\
+* res\values-v11\styles.xml
+* res\values-v14\
+* res\values-v14\styles.xml
+* res\values\
+* res\values\strings.xml
+* res\values\styles.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
